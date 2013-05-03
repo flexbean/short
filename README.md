@@ -3,6 +3,17 @@
 
 > Node.JS URL Shortener backed by Mongoose.JS w/ Examples
 
+## Why this fork?
+  
+  Enhanced functionality desired:
+- Ability to provide own shortURL, if hash not desired
+- Increased precision of hash from base 62 to base 64
+
+  The original developer may no longer be developing the component as:
+- the 'master' branch version is 1.6.0 (last change 6/2012)
+- the ``` npm install short ``` version is 1.7.0 (last change 10/2012)
+- the 'develop' branch version is 1.9.0 (last change 10/2012) and it switches to using ``` npm install short-id ``` to create a sha hash instead of a random hash which is good; however, short-id shows base 74 precision in it's README while supporting only base 62 in it's code as per https://github.com/dylang/shortid/issues/7
+
 ## Notes migrating to 1.0.0+
 
   NOTE: If you've used any version of Short before 1.0.0, please note the new API. This is a finalized API & with the previous API structure being incompatible with Short 1.0.0+
