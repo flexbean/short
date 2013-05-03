@@ -5,7 +5,7 @@
 
 ## Why this fork?
   
-  Enhanced functionality desired:
+  Enhanced functionality desired, ASAP:
 - Ability to provide own shortURL, if hash not desired
 - Increased precision of hash from base 62 to base 64
 
