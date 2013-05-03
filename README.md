@@ -8,7 +8,9 @@
   Enhanced functionality desired:
 - Ability to provide own shortURL, if hash not desired
 - Increased precision of hash from base 62 to base 64
+
 ***
+
   The original developer may no longer be developing the component as:
 - the 'master' branch version is 1.6.0 (last change 6/2012)
 - the ``` npm install short ``` version is 1.7.0 (last change 10/2012)
